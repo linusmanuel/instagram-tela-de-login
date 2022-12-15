@@ -38,7 +38,8 @@ main {
 }
 
 /* LOGIN FORM */
-#form-box {
+#form-box,
+#register-container {
   background-color: #fff;
   border: 1px solid #dbdbdb;
   width: 350px;
@@ -133,8 +134,25 @@ main {
   margin-bottom: 20px;
   font-size: 12px;
 }
-
+ 
 #forgot-pass a {
   text-decoration: none;
   color: #373799;
+}
+
+/* CHAMADA CADASTRO */
+#register-container {
+  margin-top: 10px;
+  padding: 25px;
+}
+
+#register-container p {
+  font-size: 14px;
+  color: #262626;
+}
+
+#register-container a {
+  color: #4a95f6;
+  font-weight: bold;
+  text-decoration: none;
 }
