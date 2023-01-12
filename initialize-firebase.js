@@ -19,8 +19,8 @@ const REQUIRED_KEYS = [
 Object.freeze(REQUIRED_KEYS)
 
 const getFirebaseCredentials = async (
-  filename = 'environment.json',
-  _handleIfNoCredentials = handleIfNoCredentials,
+  filename = './environment.json',
+  _handleIfNoCredentials = handleIfNoCredentials
 ) => {
   const credentialsResponse = await fetch(filename)
   const credentials = await credentialsResponse.json()
